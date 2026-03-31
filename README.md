@@ -50,13 +50,6 @@ node src/server.js
 
 On first `/api/properties` request, 5 seed properties are automatically inserted.
 
-### 2. Frontend
-
-Open `frontend/index.html` directly in your browser — **no build step needed**.
-
-> The frontend calls `http://localhost:5000/api`. Make sure the backend is running first.
-
----
 
 ## Example Flows
 
