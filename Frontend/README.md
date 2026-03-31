@@ -36,8 +36,8 @@ npm install
 Create or verify `.env`:
 ```
 PORT=5000
-MONGODB_URI=mongodb+srv://dbUser:Bishu123@cluster0.fqgpjk1.mongodb.net
-JWT_SECRET=WZLU4XYLF8HLVUS92E4NVLIS9VU6VLSZ
+MONGODB_URI=mongodb+srv:/
+JWT_SECRET=
 JWT_EXPIRES_IN=7d
 CLIENT_URL=http://localhost:3000
 ```
@@ -50,13 +50,6 @@ node src/server.js
 
 On first `/api/properties` request, 5 seed properties are automatically inserted.
 
-### 2. Frontend
-
-Open `frontend/index.html` directly in your browser — **no build step needed**.
-
-> The frontend calls `http://localhost:5000/api`. Make sure the backend is running first.
-
----
 
 ## Example Flows
 
